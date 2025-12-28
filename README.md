@@ -25,7 +25,13 @@ pip install javalang
 ## Usage
 
 ```bash
-python interface_poisoning_analyzer.py /path/to/java/project
+General usage below:
+**python interface_poisoning_analyzer.py /path/to/java/project**
+
+For this repostory, the src file already include https://github.com/apache/commons-cli.git src files.
+To run this example project, just make git clone and run script as below (with requirements):
+
+**python interface_poisoning_analyzer.py .\src**
 ```
 
 ### Example
