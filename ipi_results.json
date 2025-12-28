@@ -1,0 +1,65 @@
+{
+  "project": ".\\src",
+  "total_classes": 30,
+  "total_interfaces": 4,
+  "weights": {
+    "alpha_SIR": 0.25,
+    "beta_UUR": 0.15,
+    "gamma_UMR": 0.25,
+    "delta_NCD": 0.35
+  },
+  "results": [
+    {
+      "interface": "CommandLineParser",
+      "IC": 2,
+      "SIR": 0.5,
+      "IU": 1,
+      "UUR": 0.033,
+      "total_methods": 2,
+      "unused_methods": 0,
+      "UMR": 0.0,
+      "CallDepth": 1,
+      "NCD": 0.0,
+      "IPI": 0.27
+    },
+    {
+      "interface": "Converter",
+      "IC": 0,
+      "SIR": 1.0,
+      "IU": 2,
+      "UUR": 0.067,
+      "total_methods": 1,
+      "unused_methods": 0,
+      "UMR": 0.0,
+      "CallDepth": 1,
+      "NCD": 0.0,
+      "IPI": 0.39
+    },
+    {
+      "interface": "HelpAppendable",
+      "IC": 1,
+      "SIR": 1.0,
+      "IU": 3,
+      "UUR": 0.1,
+      "total_methods": 7,
+      "unused_methods": 4,
+      "UMR": 0.571,
+      "CallDepth": 2,
+      "NCD": 1.0,
+      "IPI": 0.878
+    },
+    {
+      "interface": "TableDefinition",
+      "IC": 0,
+      "SIR": 1.0,
+      "IU": 3,
+      "UUR": 0.1,
+      "total_methods": 5,
+      "unused_methods": 0,
+      "UMR": 0.0,
+      "CallDepth": 1,
+      "NCD": 0.0,
+      "IPI": 0.385
+    }
+  ]
+}
